@@ -6,8 +6,8 @@ First, SSH into your RPi
 Run the following commands:
 
 
-
-#L sudo apt update
+selected_text
+sudo apt update
 sudo apt install python3-numpy python3-matplotlib libatlas-base-dev 
 
 then install NumPy in the Klipper environment
