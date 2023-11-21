@@ -127,10 +127,26 @@ For a Raspberry Pi 4
 
 ![image](https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/eeda2fcc-ab3d-414e-a26c-c100fadf5ea5)
 
-## If you have the LDO input shaper kit like I do its quite easy to install. 
+### If you have the LDO input shaper kit like I do its quite easy to install. 
 
 ## Now, lets test if the Pi can detect your ADXL. 
 Connect your ADXL to your pi.
+
+Run the following command in your Klipper console: 
+
+```
+ACCELEROMETER_QUERY
+```
+
+if you get an error like this:
+
+###Invalid adxl345 id (got xx vs e5)### 
+
+this is good and bad news.
+
+The good news is your Pi is set up correctly the bad news is your pins are wrong or not connected correctly to the ADXl or the Pi. Or, for LDO kits your ribbon cable is upside down on the Pi or the ADXL.
+
+
 
 
 
