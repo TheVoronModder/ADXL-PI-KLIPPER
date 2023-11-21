@@ -7,8 +7,8 @@ Run the following commands:
 
 
 
-<clipboard-copy> sudo apt update
-sudo apt install python3-numpy python3-matplotlib libatlas-base-dev <clipboard-copy>
+#L sudo apt update
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev 
 
 then install NumPy in the Klipper environment
 
