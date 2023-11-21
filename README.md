@@ -5,6 +5,12 @@ First, SSH into your RPi
 
 Run the following commands:
 
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
+}
+```
+
 
 selected_text
 sudo apt update
