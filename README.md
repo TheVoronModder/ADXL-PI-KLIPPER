@@ -140,7 +140,7 @@ ACCELEROMETER_QUERY
 
 if you get an error like this:
 
-###Invalid adxl345 id (got xx vs e5)### 
+### Invalid adxl345 id (got xx vs e5)
 
 this is good and bad news.
 
