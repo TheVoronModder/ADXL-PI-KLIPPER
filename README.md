@@ -1,6 +1,8 @@
 # ADXL-PI-KLIPPER
 No-Nonsense guide to ADXL installation and Configuration
 
+This guide serves to encompass all ADXL types in order to be thorough incase a person wants to have different style accelerometers installed / used.
+
 First, SSH into your RPi
 
 Run the following commands:
