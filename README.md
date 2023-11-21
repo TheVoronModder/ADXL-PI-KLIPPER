@@ -24,6 +24,9 @@ then install NumPy in the Klipper environment
 Go to your printer.cfg file and add the following
 
 ```
+#########################################################
+#########         ADXL Configurations          ##########
+#########################################################
 [mcu rpi]
 serial: /tmp/klipper_host_mcu
 
@@ -33,7 +36,10 @@ cs_pin: rpi:None
 [resonance_tester]
 accel_chip: adxl345
 probe_points:
-    100, 100, 20  # an example
+    #Choose one below specific to your printer
+    #125, 125, 20 #for 250mm beds
+    #150, 150, 20 #for 300mm beds
+    #175, 175, 20 #for 350mm beds
 ```
 
 Under probe_points:
@@ -83,13 +89,14 @@ sudo raspi-config
 ```
 You will be prompted for your password
 
+choose 3 or whatever number is "Interface Options"
+
 <img width="483" alt="image" src="https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/8f6b08b7-71a3-4e4b-b3fb-3a67095973c6">
 
-choose 3 or whatever number is "Interface Options"
+Then SPI and I2C
 
 <img width="631" alt="image" src="https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/50bf2b14-c3a2-44d4-880d-82f004a5227e">
 
-Then SPI and I2C
 
 You hit ENTER on your keyboard and choose YES hwen the pop up question asks if you would like the SPI interface to be enabled.
 
@@ -107,11 +114,7 @@ Run these commands:
 sudo apt-get install gpiod
 ```
 
-your done
-
-
-
-
+your done!
 
 
 
