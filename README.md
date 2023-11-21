@@ -72,6 +72,40 @@ sudo service klipper stop
 make flash
 sudo service klipper start
 ```
+## Enable SPI and I2C on RPi
+
+SSH into your pi again.
+Run this:
+```
+sudo raspi-config
+```
+You will be prompted for your password
+
+<img width="483" alt="image" src="https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/8f6b08b7-71a3-4e4b-b3fb-3a67095973c6">
+
+choose 3 or whatever number is "Interface Options"
+
+<img width="631" alt="image" src="https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/50bf2b14-c3a2-44d4-880d-82f004a5227e">
+
+Then SPI and I2C
+
+You hit ENTER on your keyboard and choose YES hwen the pop up question asks if you would like the SPI interface to be enabled.
+
+Same for the I2C
+
+### Save and close out of SSH
+
+If your running the LDO Input Shaper Kit Like Me we need to install the Linux GPIO Character Device - Binary
+
+### SSH back into your Raspberry Pi
+
+Run these commands:
+
+```
+sudo apt-get install gpiod
+```
+
+your done
 
 
 
