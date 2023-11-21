@@ -116,8 +116,7 @@ sudo apt-get install gpiod
 
 your done!
 
-## Now, lets test if the Pi can detect your ADXL. 
-Connect your ADXL to your pi.
+## Set up your ADXL on your Pi, the WIRING
 
 The following images are for if you are using wires to connect your ADXL from the GPIO pins on a RPi.
 
@@ -129,6 +128,10 @@ For a Raspberry Pi 4
 ![image](https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/eeda2fcc-ab3d-414e-a26c-c100fadf5ea5)
 
 ## If you have the LDO input shaper kit like I do its quite easy to install. 
+
+## Now, lets test if the Pi can detect your ADXL. 
+Connect your ADXL to your pi.
+
 
 
 
