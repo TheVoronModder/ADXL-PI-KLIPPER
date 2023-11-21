@@ -1,7 +1,7 @@
 # ADXL-PI-KLIPPER
-No-Nonsense guide to ADXL installation and Configuration
+##No-Nonsense guide to ADXL installation and Configuration serves to encompass all ADXL types in order to be thorough in case a person wants to have different style accelerometers installed/used.
 
-This guide serves to encompass all ADXL types in order to be thorough incase a person wants to have different style accelerometers installed / used.
+Information is pulled and compiled from https://www.klipper3d.org/Measuring_Resonances.html and https://www.klipper3d.org/RPi_microcontroller.html
 
 First, SSH into your RPi
 
@@ -115,6 +115,23 @@ sudo apt-get install gpiod
 ```
 
 your done!
+
+## Now, lets test if the Pi can detect your ADXL. 
+Connect your ADXL to your pi.
+
+The following images are for if you are using wires to connect your ADXL from the GPIO pins on a RPi.
+
+Credit to https://www.klipper3d.org/Measuring_Resonances.html
+![image](https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/6325036d-41c4-41cc-8551-d520a706eb9c)
+
+For a Raspberry Pi 4
+
+![image](https://github.com/TheVoronModder/ADXL-PI-KLIPPER/assets/142328467/eeda2fcc-ab3d-414e-a26c-c100fadf5ea5)
+
+## If you have the LDO input shaper kit like I do its quite easy to install. 
+
+
+
 
 
 
